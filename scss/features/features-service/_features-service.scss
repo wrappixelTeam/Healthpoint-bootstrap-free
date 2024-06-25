@@ -1,0 +1,22 @@
+.support{
+    .support-img{
+        border-radius: 45px 45px 0px 45px;
+        .img-title{
+            left: 0px;
+            bottom: 0px;
+        }
+    }
+    .support-content{
+        .phone, .email{
+            &::before{
+                content: '';
+                position: absolute;
+                top: -9px;
+                left: 0;
+                width: 50px;
+                height: 1px;
+                background-color: $primary;
+            }
+        }
+    }
+}
